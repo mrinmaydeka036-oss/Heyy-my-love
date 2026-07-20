@@ -213,9 +213,18 @@ showPage();
 
 document.getElementById("forgive").onclick = () => {
 
-document.querySelector(".finalText").innerHTML =
-
-`❤️
+   fetch(WEB_APP_URL, {
+  method: "POST",
+  redirect: "follow",
+  headers: {
+    "Content-Type": "text/plain;charset=utf-8"
+  },
+  body: JSON.stringify({
+    response: "Forgive Me"
+  })
+});
+document.querySelector(".finalText").innerHTML = `
+❤️
 
 Thank You...
 
@@ -228,7 +237,8 @@ I'll let my actions
 speak louder
 than my words.
 
-I Love You Forever ❤️`;
+I Love You Forever ❤️
+`;
 
 createHeartBurst();
 
@@ -239,6 +249,16 @@ createHeartBurst();
 ========================== */
 
 document.getElementById("time").onclick = () => {
+   fetch(WEB_APP_URL, {
+  method: "POST",
+  redirect: "follow",
+  headers: {
+    "Content-Type": "text/plain;charset=utf-8"
+  },
+  body: JSON.stringify({
+    response: "Need More Time"
+  })
+});
 
 document.querySelector(".finalText").innerHTML =
 
