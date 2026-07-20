@@ -1,0 +1,1 @@
+const b=document.getElementById('start');const s=document.getElementById('story');const m=document.getElementById('music');b.onclick=()=>{s.classList.remove('hidden');b.style.display='none';m.play().catch(()=>{});};
