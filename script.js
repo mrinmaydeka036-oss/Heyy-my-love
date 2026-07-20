@@ -1,4 +1,5 @@
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzPL5T8wG03RFyBkKSh-D74vBY9VwEHv_FiJKfzxDRc9pXGVQcyhMc6HebkSCsy13s/exec";/* ==========================
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzPL5T8wG03RFyBkKSh-D74vBY9VwEHv_FiJKfzxDRc9pXGVQcyhMc6HebkSCsy13s/exec";
+/* ==========================
    ELEMENTS
 ========================== */
 
